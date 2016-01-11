@@ -101,7 +101,7 @@ textarea {
 }
 .curve {
     stroke: red;
-    stroke-width: 3px;
+    stroke-width: 2px;
 }
 .control {
     fill: #ccc;
@@ -114,20 +114,22 @@ textarea {
 }
 
 .slider-container {
-    display: flex;
-    justify-content: space-between;
+    width: 400px;
+    margin-left: 50px;
 }
-
 .d3-slider {
-    width: 100%;
+    width: 300px;
+    float: left;
 }
 
 .d3-slider-text {
     margin-right:10px;
+    float: left;
 }
 
 #vis {
-    margin: 50px;
+    margin-left: 50px;
+    margin-top:50px;
 }
 /* ==========================================================================
    Helper classes
